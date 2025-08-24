@@ -1,10 +1,10 @@
 nextflow.enable.dsl=2
 
-params.reads     = '/home/omicslogic/Downloads/HARSH_TEST_AREA/git_test/data/second_data/*_{1,2}.fastq.gz'
-params.adapters  = '/home/omicslogic/miniconda3/share/trimmomatic-0.39-2/adapters/NexteraPE-PE.fa'
-params.index     = '/home/omicslogic/ref/grch38/genome'  // HISAT2 index prefix
-params.gtf       = '/home/omicslogic/ref/Homo_sapiens.GRCh38.113.gtf'
-params.output    = '/home/omicslogic/Downloads/HARSH_TEST_AREA/git_test/data/second_data/nextflow_output'
+params.reads     = '/home/Downloads/HARSH_TEST_AREA/git_test/data/second_data/*_{1,2}.fastq.gz'
+params.adapters  = '/home/miniconda3/share/trimmomatic-0.39-2/adapters/NexteraPE-PE.fa'
+params.index     = '/home/ref/grch38/genome'  // HISAT2 index prefix
+params.gtf       = '/home/ref/Homo_sapiens.GRCh38.113.gtf'
+params.output    = '/home/Downloads/HARSH_TEST_AREA/git_test/data/second_data/nextflow_output'
 params.threads   = 16
 
 process SetupDirectories {
